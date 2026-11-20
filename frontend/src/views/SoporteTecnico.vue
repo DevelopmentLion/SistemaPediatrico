@@ -3,7 +3,7 @@
     <v-row>
       <v-col cols="12">
         <v-card>
-          <v-card-title class="text-h4 text-primary">
+          <v-card-title class="text-h4 imss-blue">
             Soporte Técnico
           </v-card-title>
           <v-card-text>
@@ -20,3 +20,9 @@
 <script setup>
 // Módulo de Soporte Técnico
 </script>
+
+<style scoped>
+.imss-blue {
+  color: #0054A6 !important;
+}
+</style>
