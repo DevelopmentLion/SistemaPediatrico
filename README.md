@@ -63,8 +63,16 @@ cp .env.example .env
 
 ### 3. Instalar dependencias y ejecutar
 
-El proyecto incluye el wrapper de Gradle 8.5, no necesitas instalar Gradle globalmente:
+El proyecto puede usar Gradle instalado globalmente o el wrapper (Gradle 8.5):
 
+**Opción 1: Usando Gradle global (recomendado si está instalado):**
+```bash
+cd backend
+gradle build
+gradle bootRun
+```
+
+**Opción 2: Usando el wrapper:**
 ```bash
 cd backend
 ./gradlew build
@@ -149,4 +157,5 @@ El proyecto usa Gradle 8.5 (incluido como wrapper) para compatibilidad. La versi
 ## Correcciones aplicadas
 
 - Backend: Paquete renombrado a `com.sistemap pediatrico` (sin espacios en el nombre del directorio)
-- Frontend: Vuetify configurado correctamente con componentes y directivas explícitos
+- Frontend: Vuetify configurado con plugin `vite-plugin-vuetify` para auto-importación de componentes
+- README: Actualizado para indicar que se puede usar Gradle global o wrapper
