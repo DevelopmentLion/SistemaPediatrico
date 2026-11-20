@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: sistema-pediatrico-backend
+  
+  datasource:
+    url: jdbc:mariadb://localhost:3306/sistema_p pediatrico?createDatabaseIfNotExist=true
+    username: root
+    password: ${DB_PASSWORD:}
+    driver-class-name: org.mariadb.jdbc.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MariaDBDialect
+        format_sql: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+logging:
+  level:
+    com.sistemap pediatrico: DEBUG
