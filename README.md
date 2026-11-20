@@ -1,4 +1,4 @@
-# Sistema Pediátrico
+# SICEP - Sistema de Información y Control de Expedientes Pediátricos
 
 Sistema de gestión pediátrica con backend en Spring Boot (Groovy) y frontend en Vue 3 + Vuetify.
 

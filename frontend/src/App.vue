@@ -4,18 +4,18 @@
       <v-container class="fill-height d-flex align-center justify-center bg-blue-lighten-5">
         <v-card class="elevation-6 pa-6" max-width="600">
           <v-card-title class="text-h4 text-center mb-4 text-primary">
-            Sistema Pediátrico
+            SICEP
           </v-card-title>
-          
+
           <v-card-text class="text-center">
             <v-icon size="100" color="primary" class="mb-4">
               mdi-hospital
             </v-icon>
-            
+
             <p class="text-h6 mb-4">
-              Bienvenido al Sistema de Gestión Pediátrica
+              Sistema de Información y Control de Expedientes Pediátricos
             </p>
-            
+
             <p class="text-body-1 text-grey-darken-1 mb-6">
               Plataforma integral para la gestión de pacientes, citas y tratamientos pediátricos.
             </p>
